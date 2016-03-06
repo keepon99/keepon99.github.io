@@ -1,0 +1,27 @@
+{
+  "name": "technimatic",
+  "authors": [
+    "Michael <afroafro88@gmail.com>"
+  ],
+  "description": "My FreeCodeCamp Tribute Page!",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "FreeCodeCamp",
+    "Tribute",
+    "Technimatic"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
