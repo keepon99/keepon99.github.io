@@ -1,17 +1,18 @@
 @import "variables";
 
 html {
-    ::-webkit-scrollbar {
-      background: $scrollBackground;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: $scrollThumb;
-    }
-    ::-webkit-scrollbar-corner {
-      background: $scrollCorner;
-    }
+  ::-webkit-scrollbar {
+    background: $scrollBackground;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $scrollThumb;
+  }
+  ::-webkit-scrollbar-corner {
+    background: $scrollCorner;
+  }
   body {
     background: $bodyBackground;
+    //min-width: 1024px !important;
     h1 {
       font-family: "Bangers", cursive;
       color: $h1Primary;
@@ -21,7 +22,16 @@ html {
       min-height: 1280px;
       background: url("../img/3_1080.jpg") no-repeat 57% 0/100%;
     }
+    #bg-dot {
+      background: url("../img/bg.png") repeat;
+      width: 100%;
+      height: 1280px;
+      position: absolute;
+      top: 0;
+      z-index: 20;
+    }
     #bio {
+      background: url("../img/splash-4-vertical.jpg") no-repeat -3% 20%/35%;
       #technimatic-logo {
         margin-top: 100px;
         margin-bottom: 100px;
@@ -34,7 +44,7 @@ html {
         margin: 0 20px;
       }
       .row:nth-of-type(2),
-      .row:nth-of-type(3){
+      .row:nth-of-type(3) {
         display: flex;
         align-items: center;
         flex-flow: row wrap;
@@ -43,7 +53,8 @@ html {
     }
     #audio {
       display: flex;
-      margin-bottom: 100px;
+      padding-bottom: 100px;
+      background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -10%/35%;
       .row {
         display: flex;
         align-items: center;
@@ -63,6 +74,9 @@ html {
     }
     #video {
       display: flex;
+      padding-bottom: 100px;
+      background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -646px/35%,
+      url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%;
       .row {
         display: flex;
         align-items: center;
@@ -70,12 +84,23 @@ html {
         .header {
           order: 2;
         }
-        .videos {
-          order: 1;
-          #vid-1,
-          #vid-2 {
-            width: 40%;
-          }
+        .col-sm-6 {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+    #credits {
+      padding-bottom: 10px;
+      background: url("../img/splash-6_reverted.jpg") no-repeat 0 -419px/55%;
+      hr {
+        border-color: $textPrimary;
+      }
+      p {
+        font-family: "Homemade Apple", cursive;
+        color: $textPrimary;
+        img {
+          width: 20px;
         }
       }
     }
