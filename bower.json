@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "parallax": "^2.1.3"
   }
 }
