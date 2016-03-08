@@ -1,0 +1,35 @@
+@media (max-width: 1730px) {
+  html {
+    body {
+      #bio {
+        background: url("../img/splash-4-vertical.jpg") no-repeat -10% 20%/35%;
+      }
+      #video {
+        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -658px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%;
+      }
+    }
+  }
+}
+
+@media (width: 1440px) {
+  html {
+    body {
+      #video {
+        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -676px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    body {
+      #bio {
+        background: none;
+      }
+      #credits {
+        background: url("../img/splash-6_reverted.jpg") no-repeat 0 -304px/55%;
+      }
+    }
+  }
+}

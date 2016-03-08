@@ -1,0 +1,90 @@
+html ::-webkit-scrollbar {
+  background: black; }
+html ::-webkit-scrollbar-thumb {
+  background: #F1EE0B; }
+html ::-webkit-scrollbar-corner {
+  background: black; }
+html body {
+  background: black; }
+  html body a {
+    color: #00A68E;
+    text-decoration: none; }
+    html body a:hover, html body a:active {
+      color: #007362;
+      text-decoration: none; }
+  html body h1 {
+    font-family: "Bangers", cursive;
+    color: #F1EE0B;
+    font-size: 8em; }
+  html body #bio {
+    background: url("../img/splash-4-vertical.jpg") no-repeat -3% 20%/35%; }
+    html body #bio #technimatic-logo {
+      margin-top: 100px;
+      margin-bottom: 100px; }
+    html body #bio p {
+      color: #F1EE0B;
+      text-align: justify; }
+    html body #bio .row:nth-of-type(1) {
+      margin: 0 20px; }
+    html body #bio .row:nth-of-type(2),
+    html body #bio .row:nth-of-type(3) {
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap;
+      margin-bottom: 100px; }
+  html body #audio {
+    display: flex;
+    padding-bottom: 100px;
+    background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -10%/35%; }
+    html body #audio .row {
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap; }
+    html body #audio #flexy {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-flow: row wrap; }
+      html body #audio #flexy iframe {
+        flex-basis: 20%;
+        padding: 10px; }
+  html body #video {
+    display: flex;
+    padding-bottom: 100px;
+    background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -646px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%; }
+    html body #video .row {
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap; }
+      html body #video .row .header {
+        order: 2; }
+      html body #video .row .col-sm-6 {
+        padding-left: 0;
+        padding-right: 0; }
+  html body #credits {
+    padding-bottom: 10px;
+    background: url("../img/splash-6_reverted.jpg") no-repeat 0 -419px/55%; }
+    html body #credits hr {
+      border-color: #F1EE0B; }
+    html body #credits p {
+      font-family: "Homemade Apple", cursive;
+      color: #F1EE0B; }
+      html body #credits p img {
+        width: 20px; }
+
+@media (max-width: 1730px) {
+  html body #bio {
+    background: url("../img/splash-4-vertical.jpg") no-repeat -10% 20%/35%; }
+  html body #video {
+    background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -658px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%; } }
+@media (width: 1440px) {
+  html body #video {
+    background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -676px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%; } }
+@media (max-width: 1024px) {
+  html body #bio {
+    background: none; }
+  html body #credits {
+    background: url("../img/splash-6_reverted.jpg") no-repeat 0 -304px/55%; } }
+
+/*# sourceMappingURL=styles.css.map */

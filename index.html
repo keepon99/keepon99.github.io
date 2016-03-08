@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -21,17 +22,17 @@
             <div class="row">
                 <img class="center-block img-responsive" id="technimatic-logo" src="img/technimatic-500_2.jpg" alt="Technimatic Logo">
             </div>
-            <div class="row">
+            <div id="info-block-1" class="row animated">
                 <div class="col-xs-12 col-sm-6">
                     <img class="img-responsive center-block" src="img/9_400_black.jpg" alt="The Dynamic Duo!">
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <p>Peter Rogers and Andy Powell are award winning London-based duo, Technimatic.
 
-                        Since joining forces in 2007 Technimatic’s discography has spanned the cream of the drum & bass scene, with releases on the likes of Technique, Viper, Critical, Hospital and Spearhead; in 2012 they signed exclusively to DJ Friction and K-Tee’s Shogun Audio label. Since then they have become one of the go-to acts for rich, emotive, musical d&b, epitomised perfectly by their bestselling debut album ‘Desire Paths’. This widely acclaimed long player was one of Mixmag’s Top 10 dance albums of 2014 and won ‘Best Album’ at the National Drum & Bass Awards.</p>
+                        Since joining forces in 2007 Technimatic’s discography has spanned the cream of the drum & bass scene, with releases on the likes of <a href="//www.techniquerecordings.co.uk/" target="_blank">Technique</a>, <a href="//www.viperrecordings.co.uk/" target="_blank">Viper</a>, <a href="//www.criticalmusic.com/" target="_blank">Critical</a>, <a href="//www.hospitalrecords.com/" target="_blank">Hospital</a> and <a href="//spearheadrecords.bigcartel.com/" target="_blank">Spearhead</a>; in 2012 they signed exclusively to DJ Friction and K-Tee’s <a href="//www.shogunaudio.co.uk/" target="_blank">Shogun Audio</a> label. Since then they have become one of the go-to acts for rich, emotive, musical d&b, epitomised perfectly by their bestselling debut album ‘Desire Paths’. This widely acclaimed long player was one of Mixmag’s Top 10 dance albums of 2014 and won ‘Best Album’ at the National Drum & Bass Awards.</p>
                 </div>
             </div>
-            <div class="row">
+            <div id="info-block-2" class="row animated">
                 <div class="col-xs-12 col-sm-6">
                     <p>Both talented DJs in their own right, Pete and Andy have played throughout the world, from the USA to Australia. Their energetic sets feature music from right across the d&b spectrum, and reflect a deep passion and knowledge of the scene.
 
@@ -43,13 +44,13 @@
             </div>
         </div>
     </div>
-    <div id="audio" class="layer" data-depth="0.50">
+    <div id="audio">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-3">
-                    <h1>Music</h1>
+                    <h1 id="header-music" class="animated">Music</h1>
                 </div>
-                <div class="col-xs-12 col-sm-9" id="flexy">
+                <div class="col-xs-12 col-sm-9 animated" id="flexy">
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238357220&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/232274843&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220985662&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
@@ -62,10 +63,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-3 col-sm-offset-3 pull-right header">
-                    <h1>Video</h1>
+                    <h1 id="header-video" class="animated">Video</h1>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <div id="vid-1">
+                    <div id="vid-1" class="animated">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/R8dOgXBucmc" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -74,7 +75,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-6">
-                    <div id="vid-2">
+                    <div id="vid-2" class="animated">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/GM84QEU3-Fk" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -86,12 +87,13 @@
     <div id="credits">
         <div class="container">
             <div class="row">
-                <p class="text-center">Made with lots and lots of <img src="img/heart.png"> by Michael</p>
+                <p id="credits-author" class="text-center animated">Made with lots and lots of <img src="img/heart.png"> by Michael</p>
             </div>
         </div>
     </div>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="js/site.js"></script>
 </body>
 </html>

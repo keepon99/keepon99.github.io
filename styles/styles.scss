@@ -12,6 +12,15 @@ html {
   }
   body {
     background: $bodyBackground;
+    a {
+      color: $textSecondary;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        color: darken($textSecondary, 10%);
+        text-decoration: none;
+      }
+    }
     h1 {
       font-family: "Bangers", cursive;
       color: $h1Primary;
@@ -93,3 +102,5 @@ html {
     }
   }
 }
+
+@import "media-rules";
