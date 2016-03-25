@@ -71,8 +71,7 @@ html {
     #video {
       display: flex;
       padding-bottom: 100px;
-      background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -646px/35%,
-      url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%;
+      background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -646px/35%;
       .row {
         display: flex;
         align-items: center;
@@ -88,7 +87,6 @@ html {
     }
     #credits {
       padding-bottom: 10px;
-      background: url("../img/splash-6_reverted.jpg") no-repeat 0 -419px/55%;
       hr {
         border-color: $textPrimary;
       }

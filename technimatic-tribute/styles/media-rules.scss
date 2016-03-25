@@ -5,7 +5,7 @@
         background: url("../img/splash-4-vertical.jpg") no-repeat -10% 20%/35%;
       }
       #video {
-        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -658px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%;
+        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -658px/35%;
       }
     }
   }
@@ -15,7 +15,17 @@
   html {
     body {
       #video {
-        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -676px/35%, url("../img/splash-6_reverted.jpg") no-repeat 0 340px/55%;
+        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -676px/35%;
+      }
+    }
+  }
+}
+
+@media (width: 1366px) {
+  html {
+    body {
+      #video {
+        background: url("../img/splash-4-vertical2.jpg") no-repeat 100% -683px/35%;
       }
     }
   }
@@ -26,9 +36,6 @@
     body {
       #bio {
         background: none;
-      }
-      #credits {
-        background: url("../img/splash-6_reverted.jpg") no-repeat 0 -304px/55%;
       }
     }
   }
