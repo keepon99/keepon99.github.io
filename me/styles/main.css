@@ -1,15 +1,17 @@
 body .dot {
   color: #F7600F; }
-body #about p:first-child {
-  margin-top: 30px; }
+body #about {
+  padding: 60px 0; }
 body #projects {
-  padding: 30px 0 40px;
-  background: url(""); }
+  padding: 60px 0;
+  background: url("../img/bg/5_region_3.jpg"); }
   body #projects h1 {
-    margin: 30px 0; }
+    margin: 0 0 60px;
+    color: white; }
   body #projects .card-deck-wrapper {
     padding: 0 15px; }
     body #projects .card-deck-wrapper .card-deck .card {
+      border: none;
       transition: all 0.3s ease; }
       body #projects .card-deck-wrapper .card-deck .card:hover {
         box-shadow: 0 15px 20px 1px rgba(0, 0, 0, 0.3); }
@@ -18,11 +20,10 @@ body #projects {
   body #projects .row:nth-of-type(2) {
     margin-bottom: 50px; }
 body #music {
-  margin-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
   background: #F5F5F5; }
   body #music h1 {
-    margin: 30px 0; }
+    margin: 0 0 60px; }
   body #music .music-site {
     padding: 0;
     transition: all 0.3s ease; }

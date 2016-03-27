@@ -1,25 +1,27 @@
 // *** Variables *** //
 $dotColor: #F7600F;
+$projectsH1: white;
 
+// *** Main Styles *** //
 body {
   .dot {
     color: $dotColor;
   }
   #about {
-    p:first-child {
-      margin-top: 30px;
-    }
+    padding: 60px 0;
   }
   #projects {
-    padding: 30px 0 40px;
-    background: url("");
+    padding: 60px 0;
+    background: url("../img/bg/5_region_3.jpg");
     h1 {
-      margin: 30px 0;
+      margin: 0 0 60px;
+      color: $projectsH1;
     }
     .card-deck-wrapper {
       padding: 0 15px;
       .card-deck {
         .card {
+          border: none;
           transition: all 0.3s ease;
           &:hover {
             box-shadow: 0 15px 20px 1px rgba(0,0,0,0.3);
@@ -35,11 +37,10 @@ body {
     }
   }
   #music {
-    margin-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
     background: #F5F5F5;
     h1 {
-      margin: 30px 0;
+      margin: 0 0 60px;
     }
     .music-site {
       padding: 0;
