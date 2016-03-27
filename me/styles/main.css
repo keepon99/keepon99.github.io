@@ -1,5 +1,16 @@
+body .dot {
+  color: red; }
 body #about p:first-child {
   margin-top: 30px; }
+body #projects {
+  padding: 30px 0 40px;
+  background: url(""); }
+  body #projects h1 {
+    margin: 30px 0; }
+  body #projects .card-deck-wrapper {
+    padding: 0 15px; }
+    body #projects .card-deck-wrapper .card-deck .card img {
+      width: 100%; }
 body #music {
   margin-top: 60px;
   padding-bottom: 60px;
