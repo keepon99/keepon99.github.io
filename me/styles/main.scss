@@ -1,11 +1,29 @@
 // *** Variables *** //
 $dotColor: #F7600F;
 $projectsH1: white;
+$navLinkColor: white;
+$navLinkHoverActiveColor: #5E1F4C;
 
 // *** Main Styles *** //
 body {
+  font-family: "Oxygen", sans-serif;
   .dot {
     color: $dotColor;
+  }
+  nav {
+    background: url('../img/bg/3_1980x1980.jpg');
+    &.navbar-light {
+      .navbar-nav {
+        .nav-link {
+          color: $navLinkColor;
+          &:hover,
+          &:active,
+          &:focus {
+            color: $navLinkHoverActiveColor;
+          }
+        }
+      }
+    }
   }
   #about {
     padding: 60px 0;
@@ -24,7 +42,7 @@ body {
           border: none;
           transition: all 0.3s ease;
           &:hover {
-            box-shadow: 0 15px 20px 1px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 20px 1px rgba(0, 0, 0, 0.3);
           }
           img {
             width: 100%;
@@ -47,7 +65,7 @@ body {
       transition: all 0.3s ease;
       &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 15px 20px 1px rgba(0,0,0,0.3);
+        box-shadow: 0 15px 20px 1px rgba(0, 0, 0, 0.3);
       }
     }
   }
